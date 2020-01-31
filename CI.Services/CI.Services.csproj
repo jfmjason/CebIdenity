@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Interactive.Async" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CI.Core.Interface\CI.Core.Interface.csproj" />
+    <ProjectReference Include="..\CI.IServices\CI.IServices.csproj" />
+  </ItemGroup>
+
+</Project>
